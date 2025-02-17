@@ -1,11 +1,16 @@
 body {
     background: linear-gradient(antiquewhite,burlywood );
+    background-image: url(./images/PuppyCafe.png);
+    background-position: center;
+    background-attachment: fixed;
     text-align: center;
     font-size: 16pt;
+    text-shadow: 2px 2px 2px;
 }
 h1{
     font-family:fantasy; 
-    color: peru; 
+    color: antiquewhite; 
+    outline-color: #2E3B4E;
     font-size: 15vh;
 }
 p {
@@ -13,12 +18,19 @@ p {
     color: saddlebrown; 
     font-family:cursive;
     text-align: center;
+    text-shadow:4px;
 
     img{
         float:left; 
          height:30vh;
           width:40vh;
     }
+}
+button {
+  height: 8vh;
+   width: 35vh;
+  border-radius: 30px;
+   margin: 20px;
 }
 
 /*Links*/

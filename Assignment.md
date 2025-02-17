@@ -1,18 +1,23 @@
-# Puppy Cafe Website
+# COIS-MDST-2830H-A: Multimedia and Design 
 
+Assignment 2 Due Date: February 16th, 2025, 11:59 PM 
 
-## Design Intentions
+Weightage: 25% 
 
-The design is tailored to deleiver this these main goals from users
-- Inform potential customers of what a puppy cafe is.
-- Inform users of the location (Minimal online interaction since it's heavily in person experiences).
-- Entice users into visiting.
-- Make it easy for the owners to add/remove puppies to the cafe's site.
+Group Work: 3-4 students per group
 
-Accessibility
-- Text is made readable with a 16px font
-- Images and video come with text alternatives for visually impaired
+## Assignment Overview
 
+For this assignment, students will apply their understanding from Assignment 1 and the topics covered in class up to February 16th. This includes:
+
+•	Understanding UI Elements
+
+•	Front-End Web Development
+
+•	UI Design Tools for Applications
+
+Students will work in groups of 3-4 members to design and develop a fully functional web page using HTML, CSS, and basic JavaScript. The web page must showcase a theme of their choice while incorporating design principles, usability, and functionality. The assignment will also include critical thinking, research components, and an online video presentation to reinforce the theoretical aspects discussed in class.
+Same groups as Assignment 1.
 
 
 ## Part 1: Web Page Development (Hands-on Component) - 50%
