@@ -1,6 +1,7 @@
 body {
     background: linear-gradient(antiquewhite,burlywood );
     padding-left: 55vh;
+    font-size: 16pt;
 }
 h1{
     font-family:fantasy; 
@@ -10,8 +11,15 @@ h1{
 p {
     width: 100vh; 
     color: saddlebrown; 
-    font-family:cursive
+    font-family:cursive;
+    img{
+        float: left; 
+        padding-right: 15vh;
+         height:30vh;
+          width:40vh;
+    }
 }
+
 /*Links*/
 a:link {
     color: white;
