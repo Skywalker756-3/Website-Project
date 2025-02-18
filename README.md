@@ -1,7 +1,7 @@
 # Puppy Cafe Website
 
 
-## Design Intentions
+## Purpose
 
 The design is tailored to deleiver this these main goals from users
 - Inform potential customers of what a puppy cafe is.
@@ -9,11 +9,19 @@ The design is tailored to deleiver this these main goals from users
 - Entice users into visiting.
 - Make it easy for the owners to add/remove puppies to the cafe's site.
 
+The webpage must also be accessible and well tailored for mobile users as well.
+
 Accessibility
 - Text is made readable with a 16px font
 - Images and video come with text alternatives for visually impaired
 
+## UI / UX Decisions
 
+At the top of the page we show off the puppies in a slideshow format, this is a priority because the puppies are a defining feature of the business model, making it stand out. We also indicate the location and hours at the top of the page because the main experiences delivered by the business is only possible through in person interactions.
+
+## Roles of Each member
+
+## Challenges
 
 ## Part 1: Web Page Development (Hands-on Component) - 50%
 ### Objective:
