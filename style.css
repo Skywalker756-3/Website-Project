@@ -1,9 +1,8 @@
 body {
     background: linear-gradient(antiquewhite,burlywood );
-    background-image: url(./images/PuppyCafe.png);
+    background-image: url(./images/tileable_dog.jpg);
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;
     text-align: center;
     font-size: 16pt;
     text-shadow: 2px 2px 2px;

@@ -7,10 +7,25 @@
     </head>
     <body>
         <h1> Puppy Cafe  </h1>
-        <!--Inline CSS because this is an important unique button-->
+        <!--Inline CSS because this is an important unique button
         <a href="#puppies">
             <button style="  height: 10vmax; width: 35vmax; border-radius: 30px; margin: 20px;" onclick="">Meet Our Puppies!</button>
         </a>
+        <br>
+        -->
+        <div class="slideshow">
+            <div class="slide">
+                <img src="Max.jpg" alt="Picture of Max the dog">
+            </div>
+            <div class="slide">
+                <img src="Baxter.jpg" alt="Picture of Baxter the dog">
+            </div>
+            <div class="slide">
+                <img src="Mae.jpg" alt="Picture of Mae the cat">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
         <br>
         <a href="#menu">
         <button onclick="">Menu</button>
@@ -68,5 +83,8 @@
             Phone: 867-5309 <br>
             Address: 191 Baldwin St, Toronto, ON M5T 1M1
         </address>
+        <script>
+            document.getElementById(imageCycle).setAttribute("src",)
+        </script>
     </body>
 </html>
