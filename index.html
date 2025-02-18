@@ -7,9 +7,14 @@
     </head>
     <body>
         <h1> Puppy Cafe  </h1>
-        <button style="height: 8vh; width: 35vh; border-radius: 30px; margin: 20px;" onclick="">Meet Our Puppies!</button>
+        <!--Inline CSS because this is an important unique button-->
+        <a href="#puppies">
+            <button style="  height: 10vmax; width: 35vmax; border-radius: 30px; margin: 20px;" onclick="">Meet Our Puppies!</button>
+        </a>
         <br>
+        <a href="#menu">
         <button onclick="">Menu</button>
+        </a>
             <p>
                 You want to have Coffee time with a puppy and we've got you covered. Enjoy our state of the art coffee brewed with the finest 
                 precision and the most bewildering ingredients. All the while you get swarmed by only the most aristocratic of puppies that have been
@@ -18,16 +23,12 @@
             <p> Look at the experience!</p>
             <video width="80%" height="62%">
                 <source src="videos/LA_Dog_Cafe.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-              </video> 
-           <!--  <img src="./images/dog_with_tea.jpg" style="height: 100vh; width: 100vh; padding-top: 5vh;;"> 
-            <p>
-                That's right we even have cats but we prefer puppies so we're sticking with "Puppy Cafe".
-            </p> -->
+                Your browser does not support the video tag.
+            </video> 
         <hr>
         <h2 id="puppies">Meet the Puppies</h2>
             <p>
-                <img src="./images/Max.jpg" style="float: left; padding-right: 15vh;"></img>
+                <img src="./images/Max.jpg" alt="Picture of Max the Dog"></img>
                 <h3>Max</h3>
                 A playful energetic puppy that's always full of surprise<br>
                 He enjoys being the centre of attention and loves pets!<br>
@@ -38,7 +39,7 @@
                 </i>
             </p>
             <p>
-                <img src="./images/Baxter.jpg" style="float: left; padding-right: 15vh;"></img>
+                <img src="./images/Baxter.jpg" alt="Picture of Baxter the Dog"></img>
                 <h3>Baxter</h3>
                 A curious puppy that's always interested in meeting new people<br>
                 He's our honourary tour guide for Puppy Cafe, delivering 5 star service<br>
@@ -49,7 +50,7 @@
                 </i>
             </p>
             <p>
-                <img src="./images/Mae.jpg" style="float: left; padding-right: 15vh; height:30vh; width:40vh;"></img>
+                <img src="./images/Mae.jpg" alt="Picture of Mae the Cat"></img>
                 <h3>Mae</h3>
                 A shy cat that somehow ended up in our cafe<br>
                 Mae get's along with everyone but tends to hide whenever there's a new face<br>
@@ -65,7 +66,7 @@
         <address>
             Email: myemail@fakedomain.com <br>
             Phone: 867-5309 <br>
-            Address: 270 Simcoe St N, Oshawa, ON L1G 4T5
+            Address: 191 Baldwin St, Toronto, ON M5T 1M1
         </address>
     </body>
 </html>
