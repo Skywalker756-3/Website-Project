@@ -11,7 +11,7 @@ body {
 h1{
     font-family:fantasy; 
     color: antiquewhite; 
-    font-size: 15vh;
+    font-size: 19vh;
 }
 h2{
   font-family:fantasy; 
@@ -22,17 +22,19 @@ h2{
   background-color: black;
   color:aliceblue;
   display: flex;
+  align-content: center;
   position:fixed;
   top:0;
   z-index: 1030;
   list-style-type: none;
   width:100%
+
 }
 .navigationbutton{
   margin:1px;
-  padding:20px; /*This adds depth to the navigation bar*/
+  padding:2vh; /*This adds depth to the navigation bar*/
   list-style-type: none;
-  width: 20%;
+  width: 25%;
   background-color: black;
   color:antiquewhite;
   text-align: center;
