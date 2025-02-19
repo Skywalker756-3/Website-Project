@@ -1,7 +1,7 @@
-let slideIndex = 1; // This variable represents current slide number, initially it is the first slide
-showSlides(slideIndex); //Show the first slide
+let slideIndex = 1;
+showSlides(slideIndex);
 
-// Next/previous slide buttons
+// Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
@@ -13,21 +13,27 @@ function currentSlide(n) {
 
 function showSlides(n) {
   let i;
-  let slideshow = document.getElementsByClassName("slideshow");
-  let slideIndex = 1; 
-
-  //Reset Cases
-  //This resets the slide index to 1 if it goes too high
-  if (n > slideshow.length) 
-    slideIndex = 1 
-  //This resets the slide index to max if it goes too low
-  if (n < 1) 
-    slideIndex = slideshow.length
-
-  //Hide every other image
-  for (i = 0; i < slideshow.length; i++) {
-    slideshow[i].style.display = "none";
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
   }
-  //show the current image
-  slideshow[slideIndex-1].style.display = "block";
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
 } 
+
+//Prevent the site from being visible before elements are loaded in
+let domReady = (cb) => {
+    document.readyState === 'interactive' || document.readyState === 'complete'
+      ? cb()
+      : document.addEventListener('DOMContentLoaded', cb);
+  };
+  domReady(() => {
+    // Display body when DOM is loaded
+    document.body.style.visibility = 'visible';
+  });
