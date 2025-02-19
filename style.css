@@ -70,13 +70,31 @@ h2{
 }
 /*Classes*/
 .menu{
-  width: 10vh;
+  width: 40%;
+  height: 100%;
+  margin:0%;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #804c4c;
+  gap: 10%;
+  padding: 5%;
+
 }
 .menubutton
 {
-  width: 33%;
-  height: 50%;
-  float: auto;
+  position: relative;
+  background-color: #804c4c;
+  flex: 1 1 80px;
+  text-align: center;
+}
+.menuimage
+{
+  width:100%;
+  height:auto;
+  display: block;
 }
 .foreground{
   background-color: #654321;
