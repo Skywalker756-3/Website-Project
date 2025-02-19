@@ -6,7 +6,6 @@ body {
     background-size: cover;
     text-align: center;
     font-size: 16pt;
-    text-shadow: 2px 2px 2px;
 }
 h1{
     font-family:fantasy; 
@@ -56,12 +55,15 @@ h2{
         width:40vh;
       }
 }
-button {
-
-}
 /*Classes*/
-.videobox{
-  background-color: antiquewhite;
+.foreground{
+  background-color: #654321;
+  text-shadow: none;
+  color: aliceblue;
+  padding:1vh;
+  font-family:fantasy; 
+  flex-wrap: wrap;
+  
 }
 
 * {box-sizing:border-box}
@@ -86,6 +88,7 @@ button {
   position: absolute;
   top: 50%;
   width: auto;
+  height:100%;
   margin-top: -22px;
   padding: 16px;
   color: white;
