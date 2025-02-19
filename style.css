@@ -139,15 +139,16 @@ h3{
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev{
   cursor: pointer;
   position: absolute;
-  top: 3.5%;
+  top: 0%;
+  left: 0;
   width: auto;
   height:100%;
   margin-top: -22px;
   margin: 0%;
-  padding: 250px;
+  padding: 15%;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -155,11 +156,22 @@ h3{
   user-select: none;
   float: left;
 }
-
-/* Position the "next button" to the right */
 .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0%;
   right: 0;
-  border-radius: 3px 0 0 3px;
+  width: auto;
+  height:100%;
+  margin-top: -22px;
+  margin: 0%;
+  padding: 15%;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+  float: left;
 }
 
 /* On hover, add a black background color with a little bit see-through */
