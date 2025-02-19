@@ -76,7 +76,7 @@ h2{
 .menu{
   width: 70%;
   height: 100%;
-  margin:0%;
+  margin-left:15%; 
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -90,7 +90,7 @@ h2{
 .menubutton
 {
   background-color: #804c4c;
-  flex: 1 1 25vh;
+  flex: 1 1 27vh;
   text-align: center;
   cursor:pointer
 }
