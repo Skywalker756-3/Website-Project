@@ -16,7 +16,7 @@
         <div class="navigation">
                 <button class="navigationbutton" onclick="document.getElementById('Menu').scrollIntoView({ behavior: 'smooth' });">Menu</button>
                 <button class="navigationbutton" onclick="document.getElementById('Contact').scrollIntoView({ behavior: 'smooth' });">Contact Us</button>
-                <button class="navigationbutton" onclick="document.getElementById('Adoption').scrollIntoView({ behavior: 'smooth' });">Adoption</button>
+                <button class="navigationbutton" onclick="document.getElementById('Adoption').scrollIntoView({ behavior: 'smooth' });">Adopt Now</button>
                 <button class="navigationbutton" onclick="document.getElementById('Event').scrollIntoView({ behavior: 'smooth' });">Events</button>
         </div>
 
@@ -50,51 +50,51 @@
 
 
     <!--Descriptive section with video-->
-        
-    <div class="foreground" width=30px>
+
+    <div class="foreground" width=80%>
         <h2 id="puppies">What is a Puppy Cafe?</h2>
-        A Puppy Cafe is a unique place that brings<br> together the experience of our
-        lovely beverages with <br> some quality time with puppies. Here's a tour of what you can expect!
-        <br>
+        <p class="textbox"> 
+            A Puppy Cafe is a unique place that brings together the experience of our
+            lovely beverages with some quality time with puppies. Here's a tour of what you can expect!
+        </p>
         <video width="60%" height="45%" style="padding: 2%;" controls>
             <source src="videos/LA_Dog_Cafe.mp4" type="video/mp4">
             <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English" default>
             Your browser does not support the video tag.
         </video> 
         <h2 id="Adoption">Can I Adopt a Puppy?</h2>
-        Absolutely, all of the puppies from our cafe<br>are up for adoption. Feel
-        free to come <br> meet your new puppy or apply in the form below
-        <br>
+        <p class="textbox">
+            Absolutely, all of the puppies from our cafe are up for adoption. Feel
+            free to come meet your new puppy or apply in the form below.
+        </p>
         <button class="regularbutton" onclick=" location.href = anotherWebPage.html">Adoption Form</button>
         <br>
         <h2 id="Mission">Where to Find Us</h2>
-        We're located at the heart of Los Angles.<br> Right alongside Spadina Avenue you can find <br> our cozy place right by
-        the corner of baldwin street.<br> We hope to see you here soon!
-        <br>
-
-
-
-    <!--Menu-->
+        <p class="textbox">
+            We're located at the heart of Los Angles. Right alongside Spadina Avenue you can find our cozy place right by
+            the corner of baldwin street. We hope to see you here soon!
+        </p>
+        <!--Menu-->
         <h3 id ="Menu">Menu</h3>
         <div class="foreground menu">
             <div class="menubutton"><button><img class="menuimage" src="images/coffee.png"></button>Coffee</div>
             <div class="menubutton"><button><img class="menuimage" src="images/tea.png"></button>Tea</div>
-            <div class="menubutton"><button><img class="menuimage" src="images/Baked.png"></button>Baked Goods</div>
+            <div class="menubutton"><button><img class="menuimage" src="images/Baked.png"></button>Pastries</div>
             <div class="menubutton"><button><img class="menuimage" src="images/dogtreat.png"></button>Dog Treats</div>
             <div class="menubutton"><button><img class="menuimage" src="images/sandwich.png"></button>Sandwiches</div>
-            <div class="menubutton"><button><img class="menuimage" src="images/icecream.png"></button>Icecreams</div>
+            <div class="menubutton"><button><img class="menuimage" src="images/icecream.png"></button>Ice creams</div>
         </div>
-        <hr>
-        <div class="foreground">
-            <h2 id ="Contact">Contact Us</h2>
-            <address>
-            Email: myemail@fakedomain.com <br>
-            Phone: 867-5309 <br>
-            Address: 191 Baldwin St, Los Angles, ON M5T 1M1
-            </address>
-        </div>
-        <script src="script.js">
-            
+    </div>
+    <hr>
+    <div class="foreground">
+        <h2 id ="Contact">Contact Us</h2>
+        <address>
+        Email: myemail@fakedomain.com <br>
+        Phone: 867-5309 <br>
+        Address: 191 Baldwin St, Los Angles, ON M5T 1M1
+        </address>
+    </div>
+        <script src="script.js">        
         </script>
     </body>
 </html>
