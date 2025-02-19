@@ -40,6 +40,19 @@ h2{
   font-family: fantasy;
   font-size: 100%;
 }
+.regularbutton {
+  margin:2%;
+  padding:2vh; /*This adds depth to the navigation bar*/
+  width: auto;
+  background-color: saddlebrown;
+  border-radius: 4px;
+  color:antiquewhite;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 100%;
+
+}
+
 .dogprofile {
     background-blend-mode: overlay;
     background-color: rgba(245, 245, 220, 0.7);
@@ -56,6 +69,15 @@ h2{
       }
 }
 /*Classes*/
+.menu{
+  width: 10vh;
+}
+.menubutton
+{
+  width: 33%;
+  height: 50%;
+  float: auto;
+}
 .foreground{
   background-color: #654321;
   text-shadow: none;

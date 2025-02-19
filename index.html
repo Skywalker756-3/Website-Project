@@ -10,10 +10,10 @@
     <body style="visibility:hidden">
     <!--Navigation Bar-->
         <div class="navigation">
-                <button class="navigationbutton"><a href="#Menu">Menu</a></button>
-                <button class="navigationbutton"><a href="#ContactInfo">Contact Us</a></button>
-                <button class="navigationbutton"><a href="#AdoptaPuppy">Adopt a Puppy</a></button>
-                <button class="navigationbutton"><a href="#Reserve">Reserve Now</a></button>
+                <button class="navigationbutton" onclick="document.getElementById('Menu').scrollIntoView({ behavior: 'smooth' });">Menu</button>
+                <button class="navigationbutton" onclick="document.getElementById('Contact').scrollIntoView({ behavior: 'smooth' });">Contact Us</button>
+                <button class="navigationbutton" onclick="document.getElementById('Adoption').scrollIntoView({ behavior: 'smooth' });">Adoption</button>
+                <button class="navigationbutton" onclick="document.getElementById('Reserve').scrollIntoView({ behavior: 'smooth' });">Reserve</button>
         </div>
 
         <h1> Puppy Cafe  </h1>
@@ -53,30 +53,44 @@
           <div style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
           </div>
+        </div>
 
 
 
-        <!---->
+    <!--Descriptive section with video-->
         
     <div class="foreground" width=30px>
         <h2 id="puppies">What is a Puppy Cafe?</h2>
         A Puppy Cafe is a unique place that brings<br> together the experience of our
-        lovely beverages with <br> some quality time with puppies
-        <br>
-        <video width="60%" height="45%">
+        lovely beverages with <br> some quality time with puppies. Here's a tour of what you can expect!
+        <br >
+        <video width="60%" height="45%" style="padding: 2%;">
             <source src="videos/LA_Dog_Cafe.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video> 
+        <h2 id="Adoption">Can I Adopt a Puppy?</h2>
+        Absolutely, all of the puppies from our cafe<br>are up for adoption. Feel
+        free to discuss it or fill in the form below 
+        <br>
+        <button class="regularbutton" onclick='document.location.href="www.canada.ca/en/immigration-refugees-citizenship/services/canadians/adopt-child-abroad/authorities.html"'>Adoption Form</button>
         
+    <!--Menu-->
     </div>
         <div class="foreground">
-            <h2 id ="menu">Menu</h2>
+            <h2 id ="Menu">Menu</h2>
+            <div class="menu">
+                <div class="menubutton"><button><img src="images/coffee.png"></button></div>
+                <div class="menubutton"><button><img src="images/tea.png"></button></div>
+                <div class="menubutton"><button>3</button></div>
+                <div class="menubutton"><button>4</button></div>
+                <div class="menubutton"><button>5</button></div>
+                <div class="menubutton"><button>6</button></div>
+            </div>
         </div>
         <hr>
         <div class="foreground">
-            <h2 id ="contact">Contact Information</h2>
+            <h2 id ="Contact">Contact Us</h2>
             <address>
             Email: myemail@fakedomain.com <br>
             Phone: 867-5309 <br>
