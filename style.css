@@ -39,6 +39,10 @@ h2{
   text-align: center;
   font-family: fantasy;
   font-size: 100%;
+  cursor:pointer;
+}
+.navigationbutton:hover{
+  background-color: rgba(150, 102, 0, 0.8);
 }
 .regularbutton {
   margin:2%;
@@ -50,7 +54,7 @@ h2{
   text-align: center;
   font-family: fantasy;
   font-size: 100%;
-
+  cursor:pointer;
 }
 
 .dogprofile {
@@ -88,12 +92,17 @@ h2{
   background-color: #804c4c;
   flex: 1 1 25vh;
   text-align: center;
+  cursor:pointer
 }
 .menuimage
 {
   width:100%;
   height:auto;
   display: block;
+  cursor: pointer;
+}
+.menuimage:hover, .menubutton:hover, .regularbutton:hover {
+  background-color: rgba(207, 175, 31, 0.8);
 }
 .foreground{
   background-color: #654321;
@@ -125,11 +134,11 @@ h2{
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 3.5%;
   width: auto;
   height:100%;
   margin-top: -22px;
-  padding: 16px;
+  padding: 30px;
   color: white;
   font-weight: bold;
   font-size: 18px;
