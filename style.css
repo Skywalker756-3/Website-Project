@@ -18,6 +18,27 @@ h2{
   color: antiquewhite; 
   background: none;
 }
+.navigation{
+  background-color: black;
+  color:aliceblue;
+  display: flex;
+  position:fixed;
+  top:0;
+  z-index: 1030;
+  list-style-type: none;
+  width:100%
+}
+.navigationbutton{
+  margin:1px;
+  padding:20px; /*This adds depth to the navigation bar*/
+  list-style-type: none;
+  width: 20%;
+  background-color: black;
+  color:antiquewhite;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 100%;
+}
 .dogprofile {
     background-blend-mode: overlay;
     background-color: rgba(245, 245, 220, 0.7);
@@ -34,16 +55,13 @@ h2{
       }
 }
 button {
-  height: 9vmax;
-   width: 28vmax;
-   border-radius: 40px;
-   margin: 20px;
-   background-color: saddlebrown;
-   color:antiquewhite;
-   font-family: fantasy;
-   font-size: 100%;
+
 }
 /*Classes*/
+.videobox{
+  background-color: antiquewhite;
+}
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -52,6 +70,7 @@ button {
   max-height:600px ;
   position: relative;
   margin: auto;
+  margin-bottom: 30vh;
 }
 
 /* Hide the images by default */
