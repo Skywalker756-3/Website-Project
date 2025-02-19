@@ -9,7 +9,7 @@
     
     <body style="visibility:hidden">
 
-    <!--Dummy script to prevent early firefox load-->
+    <!--Dummy script to prevent early firefox load bug-->
         <script>0</script>
 
     <!--Navigation Bar-->
@@ -20,11 +20,12 @@
                 <button class="navigationbutton" onclick="document.getElementById('Event').scrollIntoView({ behavior: 'smooth' });">Events</button>
         </div>
 
+        <!--Title-->
         <h1> Puppy Cafe  </h1>
         <h2>191 Baldwin St, Los Angles, ON M5T 1M1 </h2>
-        <div class="slideshow-container">
 
-            <!-- Full-width images with number and caption text -->
+         <!-- slideshow -->
+        <div class="slideshow-container">
             <div class="slide fade">
               <img src="images/stockdog1.jpg" style="width:100%">
               <div class="text" style="color:yellow">Maxwell</div>
@@ -55,7 +56,7 @@
         <h2 id="puppies">What is a Puppy Cafe?</h2>
         <p class="textbox"> 
             A Puppy Cafe is a unique place that brings together the experience of our
-            lovely beverages with some quality time with puppies. Here's a tour of what you can expect!
+            lovely beverages and quality time with puppies. Here's a tour of what you can expect!
         </p>
         <video width="60%" height="45%" style="padding: 2%;" controls>
             <source src="videos/LA_Dog_Cafe.mp4" type="video/mp4">
