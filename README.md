@@ -11,13 +11,14 @@ The design is tailored to deleiver this these main goals from users
 
 The webpage must also be accessible and well tailored for mobile users as well.
 
-Accessibility
-- Text is made readable with a 16px font
-- Images and video come with text alternatives for visually impaired
 
 ## UI / UX Decisions
 
-At the top of the page we show off the puppies in a slideshow format, this is a priority because the puppies are a defining feature of the business model, making it stand out. We also indicate the location and hours at the top of the page because the main experiences delivered by the business is only possible through in person interactions.
+At the top of the page we show off the puppies in a slideshow format, this is a priority because the puppies are a defining feature of the business model, making it stand out. We also have a navigation bar which
+
+Accessibility
+- Text is made readable with a 16px font
+- Images and video come with text alternatives for visually impaired
 
 ## Roles of Each member
 
