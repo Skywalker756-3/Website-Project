@@ -17,12 +17,13 @@
                 <button class="navigationbutton" onclick="document.getElementById('Menu').scrollIntoView({ behavior: 'smooth' });">Menu</button>
                 <button class="navigationbutton" onclick="document.getElementById('Contact').scrollIntoView({ behavior: 'smooth' });">Contact Us</button>
                 <button class="navigationbutton" onclick="document.getElementById('Adoption').scrollIntoView({ behavior: 'smooth' });">Adopt Now</button>
-                <button class="navigationbutton" onclick="document.getElementById('Event').scrollIntoView({ behavior: 'smooth' });">Events</button>
+                <button class="navigationbutton" href="">Events</button>
         </div>
 
         <!--Title-->
         <h1> Puppy Cafe  </h1>
-        <h2>191 Baldwin St, Los Angles, ON M5T 1M1 </h2>
+        <h2><i>191 Baldwin St, Los Angles, ON M5T 1M1</i> </h2>
+        <h2>Meet these puppies today!</h2>
 
          <!-- slideshow -->
         <div class="slideshow-container">
@@ -41,8 +42,12 @@
               <div class="text">Claire</div>
             </div>
             <!-- Next and previous buttons -->
-            <a class="prev" onclick="incrementSlides(-1)">&#10094;</a>
-            <a class="next" onclick="incrementSlides(1)">&#10095;</a>
+            <a class="prev" onclick="incrementSlides(-1)">
+                <p style="position:absolute; top:45%; left:10%">&#10094;</p>
+            </a>
+            <a class="next" onclick="incrementSlides(1)">
+                <p style="position:absolute; top:45%; right:10%">&#10095;</p>
+            </a>
           </div>
           <br>
           <noscript>Javascript isn't available to this site, try enabling it</noscript>
